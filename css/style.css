@@ -1,0 +1,209 @@
+ /** file: style.css **/
+
+ body {
+     font-family: 'Dosis', sans-serif;
+     @import url('https://fonts.googleapis.com/css?family=Dosis');
+
+ }
+
+ img {
+     100%
+ }
+
+ h2 {
+     font-size: 20px;
+     text-align: center;
+
+ }
+
+ #flexbox {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ #video-container {
+
+     max-height: 700px;
+ }
+
+ #trappe-video {
+     position: absolute;
+     width: 100%;
+     height: auto;
+     z-index: -1;
+
+ }
+
+ #overskrift {
+     position: relative;
+     color: white;
+     font-family: Bernard MT Condensed;
+     font-size: 25px;
+     padding-left: 25%;
+     z-index: 2;
+     letter-spacing: 3px;
+
+ }
+
+ #underskrift {
+     width: 200px;
+     height: 2%;
+     z-index: 1;
+     position: relative;
+     padding-top: 20%;
+     padding-left: 28%;
+
+
+ }
+
+ #etafsnit {
+     position: static;
+     margin-top: 15%;
+     margin-bottom: 15%;
+     margin: 0 20 0 20;
+     max-height: 20%;
+ }
+
+ #doc {
+     position: relative;
+     width: 100%;
+     height: auto;
+     z-index: -1;
+     margin-bottom: 5%;
+     padding: 5% 0 5% 0;
+ }
+
+ #musicNiels {
+     /** navigation musik **/
+     background-color: #f1f3f4;
+     padding-top: 10px;
+
+ }
+
+ #skullMusic {
+     max-width: 100%;
+     background-color: #f1f3f4;
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+
+ #skull {
+     max-width: 100%;
+ }
+
+ #niels {
+     max-width: 100%;
+
+
+ }
+
+
+ #guitar {
+     max-width: 100%;
+     max-height: 100%;
+
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .video-background {
+     background: #000;
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     z-index: -99;
+ }
+
+ 
+
+
+ #vidtop-content {
+     top: 0;
+     color: #fff;
+ }
+
+ .vid-info {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 40%;
+     background: rgba(0, 0, 0, 0.3);
+     color: #fff;
+     padding: 1rem;
+     font-family: Avenir, Helvetica, sans-serif;
+     
+ }
+
+ .vid-info a {
+     display: block;
+     color: #fff;
+     text-decoration: none;
+     background: rgba(0, 0, 0, 0.5);
+     transition: .6s background;
+     border-bottom: none;
+     margin: 1rem auto;
+     text-align: center;
+ }
+
+ @media (min-aspect-ratio: 16/9) {
+     .video-foreground {
+         height: 300%;
+         top: -100%;
+     }
+ }
+
+ @media (max-aspect-ratio: 16/9) {
+     .video-foreground {
+         width: 300%;
+         left: -100%;
+     }
+ }
+
+
+
+
+ #noder {
+     max-width: 100%;
+
+ }
+
+
+ #underline {
+     display: block;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: inset;
+     border-width: 1px;
+     border-bottom-color: black;
+
+ }
+
+ #underskrift-sort {
+     width: 130px;
+ }
+
+ #mail {
+     text-decoration: none;
+     color: black;
+
+
+ }
+
+ #tel {
+     text-decoration: none;
+     color: black;
+
+ }
+
+ footer {
+     font-size: 12px;
+ }
