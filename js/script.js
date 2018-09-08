@@ -1,3 +1,19 @@
+
+//skull//
+
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
+
+
+
+
 HTMLScriptElement
 window.onload = function () {
     var vids = document.getElementById("video");
@@ -15,7 +31,7 @@ window.onload = function () {
 }
 
 
-//skull//
+
 js:
     let myTracks = [
 'niels-musik.mp3'
